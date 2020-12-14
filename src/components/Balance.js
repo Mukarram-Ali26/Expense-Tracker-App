@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+
 
  const Balance = () => {
     return (
-        <div className="balance">
+        <div >
             <h4>Current Balance</h4>
-            <h1 className="b-amount">$0.00</h1>
+            <h1 id="balance">$0.00</h1>
         </div>
     )
 }
